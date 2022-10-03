@@ -15,6 +15,9 @@ public class Home5 {
         square.printRectangleKind();
         System.out.println("Сравнения квадрата с прямоугольником");
         System.out.println(square.isTheSameRectangle(rectangle2));
+        Rectangle.printRectanglesCount();
+        System.out.println("Введите true(RUSSIAN) или false(ENGLISH) для вывода названия класса");
+       Rectangle.printClassName(Rectangle.printConsol2());
 
     }
 
