@@ -57,7 +57,7 @@ public class Rectangle {
             }
 
             public boolean isTheSameRectangle (Rectangle rectangle1){
-            if (this.x == rectangle1.x && this.y == rectangle1.y){
+            if (this.x == rectangle1.x && this.y == rectangle1.y || this.x == rectangle1.y && this.y == rectangle1.x){
                 return true;
             }else
                 return false;
